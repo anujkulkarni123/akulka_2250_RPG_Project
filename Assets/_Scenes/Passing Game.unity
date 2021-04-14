@@ -715,6 +715,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 358530ae490dd45f1a8e503d705466aa, type: 2}
   - {fileID: 2100000, guid: 9890a8238c99e45ea9caa546bc32deb2, type: 2}
   period: 3
+  finish: 10
   score: 0
 --- !u!4 &386767843
 Transform:
@@ -1727,6 +1728,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2167302207876158183, guid: 9c4593fdf6b4141f4abb9ab3f3afc5c7,
+        type: 3}
+      propertyPath: Jersey1
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2649658526847163655, guid: 9c4593fdf6b4141f4abb9ab3f3afc5c7,
         type: 3}
       propertyPath: m_Name

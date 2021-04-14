@@ -293,6 +293,52 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 66e7933ccacdb544883c93e68a76cc84, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e784e826a7585a4e9c64aa527741c45, type: 3}
+--- !u!1 &103639939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 103639941}
+  - component: {fileID: 103639940}
+  m_Layer: 0
+  m_Name: DialogueManagerScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &103639940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103639939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e75e6770fe86e8741aa720a206732feb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1679270087}
+  dialogueText: {fileID: 1442475953}
+  animator: {fileID: 2004560224}
+--- !u!4 &103639941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103639939}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &121047287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -306,7 +352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d7ad634caa1c049d49b730cc6d29c683, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d7ad634caa1c049d49b730cc6d29c683, type: 3}
       propertyPath: m_LocalScale.x
@@ -815,12 +861,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpHeight: 0.5
   dialogue:
-    name: Shaw Henson
+    name: Sketchers
     sentences:
-    - Hey, I'm Shaw Henson head organizer of this event. I'm glad you could make
-      it!
-    - I've been watching your highlights and boy do you ever have hops!
-    - ' I hope you impress today and take down our top talent!'
+    - These shoes give you the ability to jump!
   dialogue2:
     name: 
     sentences: []
@@ -1191,7 +1234,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &553082138
 GameObject:
@@ -1300,7 +1343,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 413218, guid: 826b6a0b570e8460990010fa615b5a2a, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413218, guid: 826b6a0b570e8460990010fa615b5a2a, type: 3}
       propertyPath: m_LocalScale.x
@@ -1953,7 +1996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7b68ba23b425bd4c9c2778c82b83ede, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7b68ba23b425bd4c9c2778c82b83ede, type: 3}
       propertyPath: m_LocalScale.x
@@ -3233,7 +3276,7 @@ Transform:
   - {fileID: 507853475}
   - {fileID: 1843536049}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2004560222
 GameObject:

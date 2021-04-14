@@ -8,5 +8,6 @@ public class SetLevel : MonoBehaviour
     {
         playerVariables.PV.shootingScore = 0;
         playerVariables.PV.triviaScore = 0;
+        playerVariables.PV.Level = true;
     }
 }

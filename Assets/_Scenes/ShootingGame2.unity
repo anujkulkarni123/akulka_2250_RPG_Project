@@ -536,13 +536,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479440178}
-  m_LocalRotation: {x: -0.117861554, y: -0.0039171977, z: 0.03298546, w: 0.9924743}
-  m_LocalPosition: {x: 0.7, y: 30, z: 53.8}
+  m_LocalRotation: {x: -0.11763279, y: -0.008319926, z: 0.07005943, w: 0.99054784}
+  m_LocalPosition: {x: -3.11, y: 30.89, z: 53.8}
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: -13.514001, y: -0.91600007, z: 3.9160001}
+  m_LocalEulerAnglesHint: {x: -13.408001, y: -1.9420002, z: 8.320001}
 --- !u!1 &615046080
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,6 +712,16 @@ PrefabInstance:
     - target: {fileID: 2167302207876158183, guid: 9c4593fdf6b4141f4abb9ab3f3afc5c7,
         type: 3}
       propertyPath: DRose
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2167302207876158183, guid: 9c4593fdf6b4141f4abb9ab3f3afc5c7,
+        type: 3}
+      propertyPath: Jersey1
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2167302207876158183, guid: 9c4593fdf6b4141f4abb9ab3f3afc5c7,
+        type: 3}
+      propertyPath: Jersey2
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649658526847163655, guid: 9c4593fdf6b4141f4abb9ab3f3afc5c7,

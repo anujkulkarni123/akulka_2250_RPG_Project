@@ -118,10 +118,19 @@ public class Control : MonoBehaviour
             print("hit");
             GameObject itemPickedUp = other.gameObject;
             Item item = itemPickedUp.GetComponent<Item>();
-
             Inventory.instance.AddItem(itemPickedUp, item.ID, item.type, item.description, item.icon);
+            FindObjectOfType<DialogueManagerScene>().StartDialogue(dialogue);
 
-        }  
+        }
+        if (other.tag == "Red")
+        {
+            print("hit");
+            GameObject itemPickedUp = other.gameObject;
+            Item item = itemPickedUp.GetComponent<Item>();
+            Inventory.instance.AddItem(itemPickedUp, item.ID, item.type, item.description, item.icon);
+            FindObjectOfType<DialogueManagerScene>().StartDialogue(dialogue2);
+
+        }
 
     } 
     

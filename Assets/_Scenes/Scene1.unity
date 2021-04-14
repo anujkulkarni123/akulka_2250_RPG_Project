@@ -586,7 +586,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &239786208
 MonoBehaviour:
@@ -1502,7 +1502,7 @@ PrefabInstance:
     - target: {fileID: 5551475033380626641, guid: 9c4593fdf6b4141f4abb9ab3f3afc5c7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5551475033380626641, guid: 9c4593fdf6b4141f4abb9ab3f3afc5c7,
         type: 3}
@@ -1901,7 +1901,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &861194622 stripped
 Transform:
@@ -2706,12 +2706,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpHeight: 0.5
   dialogue:
-    name: Shaw Henson
+    name: Crocs
     sentences:
-    - Hey, I'm Shaw Henson head organizer of this event. I'm glad you could make
-      it!
-    - I've been watching your highlights and boy do you ever have hops!
-    - ' I hope you impress today and take down our top talent!'
+    - You've found an object! Objects can be found all around the game to give skill
+      boosts!
+    - These shoes increase your speed! Check the objects in the backpack by pressing
+      "I"
   dialogue2:
     name: 
     sentences: []
@@ -4507,7 +4507,7 @@ PrefabInstance:
     - target: {fileID: 91067762923794605, guid: 4a8e19d745331496687d7a03b278faf1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 91067762923794605, guid: 4a8e19d745331496687d7a03b278faf1,
         type: 3}

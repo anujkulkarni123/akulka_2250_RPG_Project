@@ -140,16 +140,15 @@ public class Shoot : MonoBehaviour
         {
             arrowSpeed = 0.9f;
         }
-
-        else if (playerVariables.PV.passingScore < 8 && playerVariables.PV.Jersey1 == true)
+        else if (playerVariables.PV.passingScore < 8 && playerVariables.PV.Jersey1 == true && playerVariables.PV.Level == true)
         {
             arrowSpeed = 0.9f;
         }
-        else if (playerVariables.PV.passingScore >= 8 && playerVariables.PV.Jersey1 == false)
+        else if (playerVariables.PV.passingScore >= 8 && playerVariables.PV.Jersey1 == false && playerVariables.PV.Level == true)
         {
             arrowSpeed = 0.6f;
         }
-        else if (playerVariables.PV.passingScore >= 8 && playerVariables.PV.Jersey1 == true)
+        else if (playerVariables.PV.passingScore >= 8 && playerVariables.PV.Jersey1 == true && playerVariables.PV.Level == true)
         {
             arrowSpeed = 0.5f;
         }

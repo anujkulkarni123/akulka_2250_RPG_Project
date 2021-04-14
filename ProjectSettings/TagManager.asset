@@ -12,6 +12,12 @@ TagManager:
   - Gym2Agent
   - Door2
   - Item
+  - ProfileManager
+  - Gym1Door2
+  - Bus
+  - Gym2Exit
+  - NPC2
+  - Red
   layers:
   - Default
   - TransparentFX

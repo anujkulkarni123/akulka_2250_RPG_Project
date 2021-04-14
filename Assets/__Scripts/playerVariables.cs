@@ -10,9 +10,10 @@ public class playerVariables: MonoBehaviour
     public int shootingScore;
     public int passingScore;
     public float Speed;
-    public bool Jersey1;
-    public bool Jersey2;
+    public bool Jersey1 = false;
+    public bool Jersey2 = false;
     public bool DRose = false;
+    public bool Level = false;
     public int experiencePoints;
 
     private void Awake()
