@@ -128,15 +128,15 @@ public class Shoot : MonoBehaviour
 
     public void SetSpeed() //Sets the speed of the ball
     {
-        if (playerVariables.PV.triviaScore >= 6 && playerVariables.PV.Jersey1 == false)
+        if (playerVariables.PV.triviaScore >= 6 && playerVariables.PV.Jersey1 == false && playerVariables.PV.Level == false)
         {
             arrowSpeed = 0.6f;
         }
-        else if (playerVariables.PV.triviaScore >= 6 && playerVariables.PV.Jersey1 == true)
+        else if (playerVariables.PV.triviaScore >= 6 && playerVariables.PV.Jersey1 == true && playerVariables.PV.Level == false)
         {
             arrowSpeed = 0.5f;
         }
-        else if (playerVariables.PV.triviaScore < 6 && playerVariables.PV.Jersey1 == true)
+        else if (playerVariables.PV.triviaScore < 6 && playerVariables.PV.Jersey1 == true && playerVariables.PV.Level == false)
         {
             arrowSpeed = 0.9f;
         }

@@ -716,8 +716,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2167302207876158183, guid: 9c4593fdf6b4141f4abb9ab3f3afc5c7,
         type: 3}
+      propertyPath: Level
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2167302207876158183, guid: 9c4593fdf6b4141f4abb9ab3f3afc5c7,
+        type: 3}
       propertyPath: Jersey1
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2167302207876158183, guid: 9c4593fdf6b4141f4abb9ab3f3afc5c7,
         type: 3}

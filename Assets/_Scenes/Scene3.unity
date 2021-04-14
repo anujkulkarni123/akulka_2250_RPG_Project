@@ -2493,6 +2493,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2167302207876158183, guid: 9c4593fdf6b4141f4abb9ab3f3afc5c7,
+        type: 3}
+      propertyPath: DRose
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2167302207876158183, guid: 9c4593fdf6b4141f4abb9ab3f3afc5c7,
+        type: 3}
+      propertyPath: Level
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2649658526847163655, guid: 9c4593fdf6b4141f4abb9ab3f3afc5c7,
         type: 3}
       propertyPath: m_Name
@@ -2910,10 +2920,6 @@ MonoBehaviour:
   description: 
   icon: {fileID: 0}
   pickedUp: 0
-  equipped: 0
-  profile: {fileID: 0}
-  profileManager: {fileID: 0}
-  playersProfile: 0
 --- !u!1001 &1828815629
 PrefabInstance:
   m_ObjectHideFlags: 0
