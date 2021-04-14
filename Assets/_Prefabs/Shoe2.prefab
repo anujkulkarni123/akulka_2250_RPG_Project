@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4772926099265533361
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2465378523438092320, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c64456b3e201f4e44933aef6f446ebe5,
+        type: 3}
+    - target: {fileID: 2465378523438092321, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: ID
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465378523438092321, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: c64456b3e201f4e44933aef6f446ebe5,
+        type: 3}
+    - target: {fileID: 2465378523438092321, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: type
+      value: Shoe2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465378523438092321, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: description
+      value: Shoe makes you jump higher
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465378523438092322, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: m_Name
+      value: Shoe2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465378523438092327, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465378523438092327, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465378523438092327, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465378523438092327, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465378523438092327, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465378523438092327, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465378523438092327, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465378523438092327, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465378523438092327, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465378523438092327, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465378523438092327, guid: 9fa8f4bc0f4684602b51eca73a31bcf0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9fa8f4bc0f4684602b51eca73a31bcf0, type: 3}
